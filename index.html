@@ -47,7 +47,8 @@
                             <li><a>Contact</a></li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost text-3xl font-extrabold">Hockey<span class="text-[#FF4240]">'</span>s</a>
+                    <a class="btn btn-ghost text-2xl lg:text-3xl font-extrabold ">Hockey<span
+                            class="text-[#FF4240]">'</span>s</a>
                 </div>
 
                 <div class="navbar-center hidden lg:flex">
@@ -60,11 +61,13 @@
                     </ul>
                 </div>
                 <div class="navbar-end gap-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-                    </svg>
+                    <div class="hidden md:flex lg:flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                        </svg>
+                    </div>
                     <a class="btn bg-[#FF4240] lg:px-8 py-2 text-white text-base">Get Ticket</a>
                 </div>
             </div>
@@ -533,6 +536,87 @@
                 </div>
             </div>
         </section>
+        <!-- Clients Question start -->
+        <section class="mt-16 mb-16 w-11/12 mx-auto">
+            <div class="space-y-2 w-40 md:w-48 lg:w-96 m-auto text-center">
+                <h2 class="font-black text-2xl">Clients Question</h2>
+                <p class="text-sm">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat
+                    dolor. Purus urna in sit nullam proin.</p>
+            </div>
+            <div class="flex justify-center flex-col md:flex-col lg:flex-row mt-12 items-center space-y-4 lg:space-x-4">
+                <div class="">
+                    <img class="w-80" src="./resources/images/11.png" alt="">
+                </div>
+                <div>
+                    <div class="collapse collapse-plus">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-black">
+                            Our Equipment
+                        </div>
+                        <div class="collapse-content">
+                            <p class="w-80 md:w-80 lg:w-96 text-xs">Dolor sit amet consectetur. Ut urna diam quis
+                                sagittis. Elit elit enim
+                                sagittis turpis in magna.</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-black">
+                            Hockey Training
+                        </div>
+                        <div class="collapse-content">
+                            <p class="w-80 md:w-80 lg:w-96 text-xs">Dolor sit amet consectetur. Ut urna diam quis
+                                sagittis. Elit elit enim
+                                sagittis turpis in magna.</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-black">
+                            Private Lessons
+                        </div>
+                        <div class="collapse-content">
+                            <p class="w-80 md:w-80 lg:w-96 text-xs">Dolor sit amet consectetur. Ut urna diam quis
+                                sagittis. Elit elit enim
+                                sagittis turpis in magna.</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-black">
+                            Ski Touring
+                        </div>
+                        <div class="collapse-content">
+                            <p class="w-80 md:w-80 lg:w-96 text-xs">Dolor sit amet consectetur. Ut urna diam quis
+                                sagittis. Elit elit enim
+                                sagittis turpis in magna.</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-black">
+                            Booking
+                        </div>
+                        <div class="collapse-content">
+                            <p class="w-80 md:w-80 lg:w-96 text-xs">Dolor sit amet consectetur. Ut urna diam quis
+                                sagittis. Elit elit enim
+                                sagittis turpis in magna.</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-black">
+                            Pricings
+                        </div>
+                        <div class="collapse-content">
+                            <p class="w-80 md:w-80 lg:w-96 text-xs">Dolor sit amet consectetur. Ut urna diam quis
+                                sagittis. Elit elit enim
+                                sagittis turpis in magna.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- Get In Touch section -->
         <section class="mt-16 mb-16 w-11/12 mx-auto">
             <div class="space-y-2 w-40 md:w-48 lg:w-96 m-auto text-center">
@@ -610,14 +694,14 @@
         </section>
     </main>
     <footer class="footer p-10 bg-[#131318] text-gray-500">
-        <aside class="">
-            <h3 class="font-extrabold text-2xl text-white">Get In Touch</h3>
-            <p class="w-60 text-xs">
+        <aside class="mx-auto ">
+            <h3 class="font-extrabold text-2xl text-white mx-auto md:mx-0 lg:mx-0">Get In Touch</h3>
+            <p class="w-60 text-xs mx-auto text-center lg:text-start">
                 amet consectetur. Condimentum
                 adipiscing aliquam turpis placerat dolor. Purus
                 urna in sit nullam proin.
             </p>
-            <div class="flex items-center gap-1 mt-3">
+            <div class="flex items-center gap-1 mt-3 mx-auto md:mx-0 lg:mx-0">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor" class="w-6 h-6 text-red-600">
                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -625,7 +709,7 @@
                 </svg>
                 <p>hocky@support.com</p>
             </div>
-            <div class="flex items-center gap-1">
+            <div class="flex items-center gap-1 mx-auto md:mx-0 lg:mx-0">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor" class="w-6 h-6 text-red-600">
                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -634,21 +718,23 @@
                 <p>(+62) 123-321-543</p>
             </div>
         </aside>
-        <nav>
-            <h6 class="footer-title text-white">Company</h6>
-            <a class="link link-hover">Branding</a>
-            <a class="link link-hover">Design</a>
-            <a class="link link-hover">Marketing</a>
-            <a class="link link-hover">Advertisement</a>
-        </nav>
-        <nav>
-            <h6 class="footer-title text-white">Support</h6>
-            <a class="link link-hover">About us</a>
-            <a class="link link-hover">Contact</a>
-            <a class="link link-hover">Jobs</a>
-            <a class="link link-hover">Press kit</a>
-        </nav>
-        <nav>
+        <div class="grid grid-cols-2 gap-10 md:gap-28 lg:gap-32 mx-auto">
+            <nav class="text-center mx-auto flex flex-col">
+                <h6 class="footer-title text-white">Company</h6>
+                <a class="link link-hover">Branding</a>
+                <a class="link link-hover">Design</a>
+                <a class="link link-hover">Marketing</a>
+                <a class="link link-hover">Advertisement</a>
+            </nav>
+            <nav class="text-center mx-auto flex flex-col">
+                <h6 class="footer-title text-white">Support</h6>
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Contact</a>
+                <a class="link link-hover">Jobs</a>
+                <a class="link link-hover">Press kit</a>
+            </nav>
+        </div>
+        <nav class="mx-auto">
             <h6 class="footer-title text-white">Services</h6>
             <a class="link link-hover">Terms of use</a>
             <a class="link link-hover">Privacy policy</a>
